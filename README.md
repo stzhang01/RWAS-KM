@@ -16,11 +16,11 @@ RWAS-KM is a batteries-included JAR executable. All needed external jar packages
 - **Usage**
   - If trying csv format, the command line is:
   ```java
-  java  -jar  RWAS-KM.jar  RWAS-KM  -format  csv  -input_genotype  path/to/ example.csv  -input_phenotype  path/to/ example.tsv  -input_phenotype_column  2  -input_phenotype_type  binary  -weights_info  path/to/RWAS_top1.txt  -peak ACC_1002  -plink  path/to/plink  -Rscript  path/to/Rscript  -output_folder  path/to/output_folder
+  java  -jar  RWAS-KM.jar  RWAS-KM  -format  csv  -input_genotype  path/to/ example.csv  -input_phenotype  path/to/ example.tsv  -input_phenotype_column  2  -input_phenotype_type  binary  -weights_info  path/to/RWAS_top1.txt  -peak THCA_32997  -plink  path/to/plink  -Rscript  path/to/Rscript  -output_folder  path/to/output_folder
     ```
   - If trying plink format, the command line is:
   ```java
-  java  -jar  RWAS-KM.jar  RWAS-KM  -format  plink  -input_genotype  path/to/example.tped  -input_phenotype  path/to/example.tfam  -input_phenotype_column  6  -input_phenotype_type  binary  -weights_info  path/to/RWAS_top1.txt  - peak ACC_1002  -plink  path/to/plink  -Rscript  path/to/Rscript  -output_folder  path/to/output_folder
+  java  -jar  RWAS-KM.jar  RWAS-KM  -format  plink  -input_genotype  path/to/example.tped  -input_phenotype  path/to/example.tfam  -input_phenotype_column  6  -input_phenotype_type  binary  -weights_info  path/to/RWAS_top1.txt  - peak THCA_32997  -plink  path/to/plink  -Rscript  path/to/Rscript  -output_folder  path/to/output_folder
     ```
 
 - **Arguments**
